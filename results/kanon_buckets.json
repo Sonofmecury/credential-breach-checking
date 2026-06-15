@@ -1,0 +1,9 @@
+{
+  "db_size": 1000000,
+  "n_nonempty_buckets": 644289,
+  "mean_bucket": 1.55,
+  "median_bucket": 1,
+  "p95_bucket": 3,
+  "max_bucket": 8,
+  "note": "Each queried prefix reveals a k-anonymity set of this many candidate hashes."
+}
