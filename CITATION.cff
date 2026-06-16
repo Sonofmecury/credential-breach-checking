@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Privacy vs Cost in Credential Breach Checking: k-Anonymity vs Private Set Intersection"
+abstract: >-
+  An applied-cryptography comparison of how breach-checking services trade user query privacy against communication and computation cost. Derives the closed-form k ~ N / 2^p privacy collapse formula for k-anonymity and measures it against Diffie-Hellman PSI. Paper 3 of the Secure Systems in the Quantum Era portfolio.
+type: software
+authors:
+  - family-names: "Muhammad"
+    given-names: "Abdulrazaq Mukhtar"
+    # orcid: "https://orcid.org/YOUR-ORCID-HERE"  # add after registering at orcid.org
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20703640
+    description: "Zenodo archive (code + paper)"
+repository-code: "https://github.com/Sonofmecury/credential-breach-checking"
+keywords:
+  - cryptography
+  - privacy
+  - password-security
+  - private-set-intersection
+  - k-anonymity
+  - applied-cryptography
+  - breach-checking
+  - hibp
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-17"
