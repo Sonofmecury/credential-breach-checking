@@ -1,27 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
-title: "Privacy vs Cost in Credential Breach Checking: k-Anonymity vs Private Set Intersection"
+message: "If you use this work or its results, please cite it as below."
+title: "Privacy versus Cost in Credential Breach Checking: k-Anonymity and Private Set Intersection Compared"
 abstract: >-
-  An applied-cryptography comparison of how breach-checking services trade user query privacy against communication and computation cost. Derives the closed-form k ~ N / 2^p privacy collapse formula for k-anonymity and measures it against Diffie-Hellman PSI. Paper 3 of the Secure Systems in the Quantum Era portfolio.
+  We implement and benchmark three credential breach-checking protocols —
+  a no-privacy hash-lookup baseline, HIBP-style k-anonymity, and a
+  Diffie-Hellman PSI over a 2048-bit safe-prime group — and measure their
+  communication, computation, and privacy as breach-database size grows.
+  We show that k-anonymity's privacy degrades to k ~ 1 for small and
+  medium databases and derive the closed form k ~ N / 2^p. All code and
+  benchmarks are released.
 type: software
 authors:
   - family-names: "Muhammad"
     given-names: "Abdulrazaq Mukhtar"
-    # orcid: "https://orcid.org/YOUR-ORCID-HERE"  # add after registering at orcid.org
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.20703640
-    description: "Zenodo archive (code + paper)"
-repository-code: "https://github.com/Sonofmecury/credential-breach-checking"
+    orcid: "https://orcid.org/0009-0002-2648-6283"
 keywords:
-  - cryptography
-  - privacy
-  - password-security
-  - private-set-intersection
+  - credential breach checking
   - k-anonymity
-  - applied-cryptography
-  - breach-checking
-  - hibp
+  - private set intersection
+  - PSI
+  - Have I Been Pwned
+  - HIBP
+  - password security
+  - privacy
+  - cryptography
+  - reproducibility
 license: MIT
 version: "1.0.0"
-date-released: "2026-06-17"
+date-released: "2026-06-13"
+doi: "10.5281/zenodo.20703639"
+repository-code: "https://github.com/Sonofmecury/credential-breach-checking"
