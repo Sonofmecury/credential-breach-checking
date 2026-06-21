@@ -11,8 +11,8 @@ abstract: >-
   benchmarks are released.
 type: software
 authors:
-  - family-names: "Muhammad"
-    given-names: "Abdulrazaq Mukhtar"
+  - family-names: "Abdulrazaq"
+    given-names: "Mukhtar Muhammad"
     orcid: "https://orcid.org/0009-0002-2648-6283"
 keywords:
   - credential breach checking
